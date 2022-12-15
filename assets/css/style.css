@@ -13,8 +13,8 @@
     width: 100%;
 }
 
-.w-75{
-    width: 75%;
+.w-60{
+    width: 60%;
 }
 
 .bg-active{
@@ -40,4 +40,27 @@ main{
     height: calc(100vh - 80px);
     margin: auto;
     padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    color: white;
 }
+
+.card{
+    width: calc(100% / 4);
+    padding: 20px;
+    height: 380px;
+    text-align: center;
+}
+
+.album-img{
+    width: 100%;
+    
+}
+
+p{
+    opacity: 0.6;
+    align-self: flex-end;
+}
+

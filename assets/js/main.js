@@ -6,7 +6,7 @@ var app = new Vue({
     mounted() {
         axios.get('./api/index.php')
         .then((response) =>{
-            this.albums = response
+            this.albums = response.data
         })
     },
     created() {
